@@ -26,7 +26,7 @@ model:
   edge_decoding: dot
   graph_pooling: max
 gt:
-  layer_type: CustomGatedGCN+Mamb
+  layer_type: CustomGatedGCN+Mamba
   layers: 5
   n_heads: 4
   dim_hidden: 64  # `gt.dim_hidden` must match `gnn.dim_inner`
